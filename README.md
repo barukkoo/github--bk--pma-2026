@@ -7,17 +7,17 @@
  · XML: [KostkaXML](HodKostkouXML)  
  · Jetpack Compose: [KostkaCompose](HodKostkouCompose)  
  · vylepšení: plynulé otáčení kostky, poskočení při dopadu a zvukové efekty
-# PMA 2026 - Úkol 004: Objednávka Sushi
+
 
 
 # 3. cvičení
 
 Android aplikace pro objednávkový systém [MyApp004Objednavka](MyApp004Objednavka)
 
-## Úkol 1: Lokalizace
+ Úkol004: Lokalizace
 - Aplikace je plně lokalizována pomocí `strings.xml` (žádné hardcoded texty v kódu).
 - Výchozí jazyk je angličtina (EN).
 - Přidány překlady dočeštiny (CS) a němčiny (DE).
 
-## Úkol 2: Vlastní rozšíření
-- **Výpočet celkové ceny:** Aplikace počítá cenu vybraného setu a příplatky za zvolené doplňky. Výsledná částka se zobrazí **až ve finálním souhrnu objednávky** po kliknutí na tlačítko "Objednat".
+ Vlastní rozšíření
+- Výpočet celkové ceny: Aplikace počítá cenu vybraného setu a příplatky za zvolené doplňky. Výsledná částka se zobrazí až ve finálním souhrnu objednávky po kliknutí na tlačítko "Objednat".
