@@ -14,7 +14,7 @@
 
 Android aplikace pro objednávkový systém [MyApp004Objednavka](MyApp004Objednavka)
 
- Úkol004: Lokalizace.
+ Úkol004:
 - Výchozí jazyk je angličtina (EN).
 - Přidány překlady dočeštiny (CS) a němčiny (DE).
 
