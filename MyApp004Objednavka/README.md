@@ -1,16 +1,41 @@
-# Jednoduchý objednávkový systém (Sushi) \- MyApp004Objednavka
+# Objednávka sushi (MyApp004Objednavka)
 
-Jednoduchá Android aplikace pro objednávku sushi.
+Jednoduchá Android aplikace v Kotlinu pro objednávku sushi.
 
-## Implementované vylepšení (Úkol 2\)
+## Funkce
 
-K základní funkcionalitě objednávky bylo naimplementováno následující vlastní rozšíření:
+- výběr druhu sushi (Maki, Nigiri, California), obrázek se mění podle výběru
+- doplňky navíc: wasabi, zázvor, sójová omáčka
+- souhrn objednávky po stisku tlačítka
+- **výpočet celkové ceny objednávky** (cena setu + příplatky za doplňky)
+- lokalizace: angličtina (výchozí), čeština, němčina
 
-**Výpočet celkové ceny v souhrnu objednávky**
+## Ceny
 
-Aplikace nyní dynamicky počítá celkovou cenu objednávky na základě toho, jaké položky uživatel vybere a potvrdí tlačítkem "Objednat".
+| Položka | Cena |
+|---|---|
+| Maki set | 180 Kč |
+| Nigiri set | 220 Kč |
+| California set | 200 Kč |
+| Extra wasabi | +10 Kč |
+| Zázvor navíc | +10 Kč |
+| Sójová omáčka | +5 Kč |
 
-* **Základní cena:** Určuje se podle vybraného sushi setu (přes `RadioButton`).  
-* **Příplatky:** Zohledňuje se, zda uživatel zvolil doplňky (přes `CheckBox` \- např. Extra wasabi, Zázvor navíc, Sójová omáčka).
+## Lokalizace
 
-Výsledná celková cena se neukazuje u jednotlivých položek předem, ale zobrazí se uživateli **až jako součást souhrnu objednávky** v dolní části obrazovky po kliknutí na tlačítko "Objednat".  
+Všechny texty jsou ve `strings.xml`, žádné natvrdo v kódu ani v layoutu.
+
+| Jazyk | Složka |
+|---|---|
+| English (výchozí) | `res/values/` |
+| Čeština | `res/values-cs/` |
+| Deutsch | `res/values-de-rDE/` |
+
+Pro jiný jazyk zařízení se použije angličtina.
+
+## Screenshoty
+
+| English | Čeština | Deutsch |
+|---|---|---|
+| ![EN](screenshots/en.png) | ![CS](screenshots/cs.png) | ![DE](screenshots/de.png) |
+
