@@ -14,8 +14,7 @@
 
 Android aplikace pro objednávkový systém [MyApp004Objednavka](MyApp004Objednavka)
 
- Úkol004: Lokalizace
-- Aplikace je plně lokalizována pomocí `strings.xml` (žádné hardcoded texty v kódu).
+ Úkol004: Lokalizace.
 - Výchozí jazyk je angličtina (EN).
 - Přidány překlady dočeštiny (CS) a němčiny (DE).
 
