@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tvOrderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order_title"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"
+        />
+    <RadioGroup
+        android:id="@+id/rgSushi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbSushi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sushi_maki"/>
+
+    <RadioButton
+        android:id="@+id/rbSushi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sushi_nigiri"/>
+
+    <RadioButton
+        android:id="@+id/rbSushi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sushi_california"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbWasabi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/extra_wasabi"/>
+
+    <CheckBox
+        android:id="@+id/cbGinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/extra_ginger"/>
+    <CheckBox
+        android:id="@+id/cbSoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soy_sauce"/>
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_order"/>
+
+    <TextView
+       android:id="@+id/tvOrder"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/order_summary_title"
+        android:background="@color/wasabi_light"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/ivSushi"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/maki_set"
+        android:scaleType="centerInside"
+        />
+
+</LinearLayout>

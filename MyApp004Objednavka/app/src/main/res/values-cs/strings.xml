@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Objednávka sushi</string>
+    <string name="order_title">Jaké sushi si vychutnáte?</string>
+    <string name="sushi_maki">Maki set</string>
+    <string name="sushi_nigiri">Nigiri set</string>
+    <string name="sushi_california">California set</string>
+    <string name="extra_wasabi">Extra wasabi</string>
+    <string name="extra_ginger">Zázvor navíc</string>
+    <string name="soy_sauce">Sójová omáčka</string>
+    <string name="button_order">\tObjednat</string>
+    <string name="order_summary_title">Souhrn objednávky:</string>
+    <string name="order_summary_prefix">\tSouhrn objednávky:</string>
+    <string name="total_price">\tCelková cena: %d Kč</string>
+    <string name="price_currency_note">Ceny: Maki 180, Nigiri 220, California 200</string>
+</resources>

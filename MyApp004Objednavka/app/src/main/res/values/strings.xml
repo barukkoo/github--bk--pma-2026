@@ -1,0 +1,16 @@
+
+    <resources>
+        <string name="app_name">Sushi Order</string>
+        <string name="order_title">Which sushi would you like to enjoy?</string>
+        <string name="sushi_maki">Maki set</string>
+        <string name="sushi_nigiri">Nigiri set</string>
+        <string name="sushi_california">California set</string>
+        <string name="extra_wasabi">Extra wasabi</string>
+        <string name="extra_ginger">Extra ginger</string>
+        <string name="soy_sauce">Soy sauce</string>
+        <string name="button_order">Order</string>
+        <string name="order_summary_title">Order summary:</string>
+        <string name="order_summary_prefix">Order summary:</string>
+        <string name="total_price">Total price: %d CZK</string>
+        <string name="price_currency_note">Prices: Maki 180, Nigiri 220, California 200</string>
+    </resources>
